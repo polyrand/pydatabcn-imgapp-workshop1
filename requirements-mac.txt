@@ -1,0 +1,14 @@
+black
+fastai
+fastapi[all]
+flake8
+ipykernel
+ipython
+mypy
+pandas
+pydantic
+uvicorn[standard]
+
+
+torch
+torchvision

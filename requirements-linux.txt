@@ -1,0 +1,15 @@
+black
+fastai
+fastapi[all]
+flake8
+ipykernel
+ipython
+mypy
+pandas
+pydantic
+uvicorn[standard]
+
+
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
