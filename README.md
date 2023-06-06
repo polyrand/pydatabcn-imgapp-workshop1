@@ -62,7 +62,7 @@ Ricardo Ander-Egg Aguilar – [@ricardoanderegg](https://twitter.com/ricardoande
 - [ricardoanderegg.com](http://ricardoanderegg.com/)
 - [github.com/polyrand](https://github.com/polyrand/)
 
-## Otros enlaces
+## Otros enlaces (no relacionados con el taller)
 
 - https://huggingface.co/models?pipeline_tag=image-classification
 - https://huggingface.co/docs/transformers/main/en/model_doc/resnet
