@@ -49,11 +49,11 @@ final del código.
 
 ## Enlaces
 
-FastAI: https://docs.fast.ai/
-FastAPI: https://fastapi.tiangolo.com/
-Pydantic: https://docs.pydantic.dev/latest/
-MDN `<form>`: https://developer.mozilla.org/es/docs/Web/HTML/Element/form
-sqlite3: https://docs.python.org/3/library/sqlite3.html
+- FastAI: https://docs.fast.ai/
+- FastAPI: https://fastapi.tiangolo.com/
+- Pydantic: https://docs.pydantic.dev/latest/
+- MDN `<form>`: https://developer.mozilla.org/es/docs/Web/HTML/Element/form
+- sqlite3: https://docs.python.org/3/library/sqlite3.html
 
 ## Meta
 
