@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!README.md
+!download.py
+!requirements-linux.txt
+!requirements-windows.txt
+!requirements-mac.txt
