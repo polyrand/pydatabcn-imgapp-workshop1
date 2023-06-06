@@ -30,10 +30,11 @@ python3 -m pip install -U pip setuptools wheel
 python3 -m pip install -U -r requirements.txt
 ```
 
-4. Descargar los datos antes del inicio del taller (90MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
+5. Descargar los datos antes del inicio del taller (90MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
+   **La URL estará disponible en las próximas horas.**
 
 ```sh
-python3 download.py
+python3 download.py <URL>
 ```
 
 Durante el taller entrena un modelo de clasificación de imágenes sencillo usando
