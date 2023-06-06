@@ -47,7 +47,7 @@ Todo el taller se realizará "en directo". Es decir, todo el código se escribir
 durante el taller. Cada participante tedrá libertad sobre la implementación
 final del código.
 
-## Enlaces
+## Enlaces
 
 FastAI: https://docs.fast.ai/
 FastAPI: https://fastapi.tiangolo.com/
