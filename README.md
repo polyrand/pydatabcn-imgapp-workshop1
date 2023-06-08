@@ -47,6 +47,18 @@ Todo el taller se realizará "en directo". Es decir, todo el código se escribir
 durante el taller. Cada participante tedrá libertad sobre la implementación
 final del código.
 
+Algunos graficos generados por `fastai` no funcionan correctamente en VSCode, se
+puede añadir el siguiente código al principio del notebook para solucionar el
+problema [[fuente](https://github.com/microsoft/vscode-jupyter/issues/13163)].
+
+```python
+from IPython.display import clear_output, DisplayHandle
+def update_patch(self, obj):
+    clear_output(wait=True)
+    self.display(obj)
+DisplayHandle.update = update_patch
+```
+
 ## Enlaces
 
 - FastAI: https://docs.fast.ai/
