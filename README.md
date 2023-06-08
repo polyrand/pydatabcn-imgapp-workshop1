@@ -59,6 +59,22 @@ def update_patch(self, obj):
 DisplayHandle.update = update_patch
 ```
 
+Quizá durante el taller alguien quiere probar el modelo con imágenes hechas con
+el móvil. Algunos móviles generan images en formato HEIC. Para poder trabajar
+con estas imágenes, tendremos que installer la librería `pi-heif` y cargarla
+antes de usar el modelo.
+
+```sh
+# activar el entorno virtual!!
+python3 -m pip install pi-heif
+```
+
+```python
+from pi_heif import register_heif_opener
+
+register_heif_opener()
+```
+
 ## Enlaces
 
 - FastAI: https://docs.fast.ai/
