@@ -67,6 +67,8 @@ Ricardo Ander-Egg Aguilar – [@ricardoanderegg](https://twitter.com/ricardoande
 
 ## Otros enlaces (no relacionados con el taller)
 
+- https://www.robots.ox.ac.uk/~vgg/data/pets/
+- https://unsplash.com/
 - https://huggingface.co/models?pipeline_tag=image-classification
 - https://huggingface.co/docs/transformers/main/en/model_doc/resnet
 - https://huggingface.co/docs/transformers/tasks/image_classification
