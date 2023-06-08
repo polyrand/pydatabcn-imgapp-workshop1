@@ -21,18 +21,11 @@ environment is activated when running this script.
 
 def check_exists():
     data_dir = Path.cwd() / "data"
-    indoor_dir = data_dir / "indoor"
-    outdoor_dir = data_dir / "outdoor"
-    num_files = 200
+    num_files = 800
     if (
         data_dir.exists()
         and data_dir.is_dir()
-        and indoor_dir.exists()
-        and indoor_dir.is_dir()
-        and outdoor_dir.exists()
-        and outdoor_dir.is_dir()
-        and len(list(indoor_dir.iterdir())) == num_files
-        and len(list(outdoor_dir.iterdir())) == num_files
+        and len(list(data_dir.iterdir())) == num_files
     ):
         return True
 
