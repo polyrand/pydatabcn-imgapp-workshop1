@@ -55,6 +55,9 @@ final del código.
 - MDN `<form>`: https://developer.mozilla.org/es/docs/Web/HTML/Element/form
 - sqlite3: https://docs.python.org/3/library/sqlite3.html
 
+- https://docs.fast.ai/tutorial.imagenette.html#loading-the-data-with-the-data-block-api
+- https://docs.fast.ai/data.transforms.html#split
+
 ## Meta
 
 Ricardo Ander-Egg Aguilar – [@ricardoanderegg](https://twitter.com/ricardoanderegg) –
