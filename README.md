@@ -116,6 +116,7 @@ Formularios en FastAPI:
 Capturar imágenes desde el navegador:
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture
 - https://anssiko.github.io/html-media-capture/
 - https://austingil.com/html-capture-attribute/
 
