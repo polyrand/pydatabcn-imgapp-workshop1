@@ -107,12 +107,23 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 - MDN `<form>`: https://developer.mozilla.org/es/docs/Web/HTML/Element/form
 - sqlite3: https://docs.python.org/3/library/sqlite3.html
 
+Formularios en FastAPI:
+
 - https://fastapi.tiangolo.com/tutorial/request-forms/
 - https://fastapi.tiangolo.com/tutorial/request-files/
 - https://fastapi.tiangolo.com/tutorial/request-forms-and-files/
 
+Capturar imágenes desde el navegador:
+
+- https://anssiko.github.io/html-media-capture/
+- https://austingil.com/html-capture-attribute/
+
+Fastai DataBlock API:
+
 - https://docs.fast.ai/tutorial.imagenette.html#loading-the-data-with-the-data-block-api
 - https://docs.fast.ai/data.transforms.html#split
+
+Otros:
 
 - https://en.wikipedia.org/wiki/Post/Redirect/Get
 
