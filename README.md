@@ -75,6 +75,17 @@ from pi_heif import register_heif_opener
 register_heif_opener()
 ```
 
+**Importante para macOS con procesadores ARM**
+
+Pytorch intentará utilizar la GPU del sistema, pero no todas las operaciones
+están soportadas. Antes de ejecutar ningún script/notebook, hay que configurar
+la siguiente variable del entorno. (Importante hacerlo en el mismo
+entorno/terminal donde se vayan a ejecutar los scripts/notebooks)
+
+```sh
+export PYTORCH_ENABLE_MPS_FALLBACK=1
+```
+
 ## Enlaces
 
 - FastAI: https://docs.fast.ai/
@@ -82,6 +93,10 @@ register_heif_opener()
 - Pydantic: https://docs.pydantic.dev/latest/
 - MDN `<form>`: https://developer.mozilla.org/es/docs/Web/HTML/Element/form
 - sqlite3: https://docs.python.org/3/library/sqlite3.html
+
+- https://fastapi.tiangolo.com/tutorial/request-forms/
+- https://fastapi.tiangolo.com/tutorial/request-files/
+- https://fastapi.tiangolo.com/tutorial/request-forms-and-files/
 
 - https://docs.fast.ai/tutorial.imagenette.html#loading-the-data-with-the-data-block-api
 - https://docs.fast.ai/data.transforms.html#split
