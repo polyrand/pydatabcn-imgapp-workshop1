@@ -30,7 +30,7 @@ python3 -m pip install -U pip setuptools wheel
 python3 -m pip install -U -r requirements.txt
 ```
 
-5. Descargar los datos antes del inicio del taller (120MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
+5. Descargar los datos antes del inicio del taller (~110MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
 
 ```sh
 python3 download.py
