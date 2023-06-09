@@ -30,16 +30,23 @@ python3 -m pip install -U pip setuptools wheel
 python3 -m pip install -U -r requirements.txt
 ```
 
-5. Descargar los datos antes del inicio del taller (90MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
-   **La URL estará disponible en las próximas horas.**
+5. Descargar los datos antes del inicio del taller (120MB). El script `download.py` se encarga de descargar los datos y descomprimirlos.
 
 ```sh
-python3 download.py <URL>
+python3 download.py
 ```
 
 Durante el taller entrena un modelo de clasificación de imágenes sencillo usando
 [fastai](https://docs.fast.ai/). Se recomienda tener al menos 10GB de espacio
-libre en el disco duro y al menos 4GB de RAM.
+libre en el disco duro y al menos 8GB de RAM.
+
+6. En el taller crearemos una aplicación web para utilizar nuestro modelo.
+   Podremos usar la aplicación desde otros dispositivos y con una URL pública. Para
+   esto es necesario instalar `cloudflared` (NO es necesario tener una cuenta en
+   Cloudflare ni configurar nada). Esto es opcional, y solamente se utilizará para
+   que otros participantes del taller pueda probar la aplicación.
+
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/local/#1-download-and-install-cloudflared
 
 ## Sobre el taller
 
