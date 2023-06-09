@@ -48,6 +48,12 @@ def main(url: str) -> int:
         zf.extractall()
 
     print("Done.")
+    print(
+        """
+Now you should have a ./data folder with 800 files in it and a 'labels.csv' file
+in the current directory.
+"""
+    )
     return 0
 
 
