@@ -114,6 +114,8 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 - https://docs.fast.ai/tutorial.imagenette.html#loading-the-data-with-the-data-block-api
 - https://docs.fast.ai/data.transforms.html#split
 
+- https://en.wikipedia.org/wiki/Post/Redirect/Get
+
 ## Meta
 
 Ricardo Ander-Egg Aguilar – [@ricardoanderegg](https://twitter.com/ricardoanderegg) –
@@ -123,6 +125,7 @@ Ricardo Ander-Egg Aguilar – [@ricardoanderegg](https://twitter.com/ricardoande
 
 ## Otros enlaces (no relacionados con el taller)
 
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections#temporary_redirections
 - https://www.robots.ox.ac.uk/~vgg/data/pets/
 - https://unsplash.com/
 - https://huggingface.co/models?pipeline_tag=image-classification
