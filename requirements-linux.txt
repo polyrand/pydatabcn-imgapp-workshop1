@@ -2,6 +2,7 @@ black
 fastai
 fastapi[all]
 flake8
+httpx
 ipykernel
 ipython
 mypy
