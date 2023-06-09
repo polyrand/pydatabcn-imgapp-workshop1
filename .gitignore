@@ -12,3 +12,4 @@
 !templates/base.html.j2
 !templates/index.html.j2
 !templates/response.html.j2
+!app.py
