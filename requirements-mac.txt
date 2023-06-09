@@ -7,6 +7,7 @@ ipython
 mypy
 pandas
 pydantic
+typing_extensions
 uvicorn[standard]
 
 
