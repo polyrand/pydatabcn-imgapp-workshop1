@@ -8,3 +8,7 @@
 !requirements-linux.txt
 !requirements-windows.txt
 !requirements-mac.txt
+!templates
+!templates/base.html.j2
+!templates/index.html.j2
+!templates/response.html.j2

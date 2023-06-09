@@ -1,0 +1,8 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+<form method="get" action="/test">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+</form>
+{% endblock content%}
