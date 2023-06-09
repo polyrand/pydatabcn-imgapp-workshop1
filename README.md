@@ -48,6 +48,12 @@ libre en el disco duro y al menos 8GB de RAM.
 
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/local/#1-download-and-install-cloudflared
 
+Para create el tunel (cambiar `8000` por el puerto que se quiera usar):
+
+```sh
+cloudflared tunnel --url http://localhost:8000
+```
+
 ## Sobre el taller
 
 Todo el taller se realizará "en directo". Es decir, todo el código se escribirá
