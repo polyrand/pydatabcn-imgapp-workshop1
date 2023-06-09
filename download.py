@@ -52,7 +52,5 @@ def main(url: str) -> int:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <URL>")
-        sys.exit(1)
-    sys.exit(main(sys.argv[1]))
+    URL = "https://public.polyrand.net/data.zip"
+    sys.exit(main(URL))
