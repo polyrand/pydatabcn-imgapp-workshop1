@@ -1,5 +1,10 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-<p>Hello, {{ name }} is your name</p>
+<p>La predicción es: {{ prediccion }}</p>
+<form method="get" action="/feedback">
+    <input type="text" name="texto_feebdack">
+    <input type="text" value="{{ pred_id }}" name="ident" hidden>
+    <input type="submit" value="Enviar">
+</form>
 {% endblock content%}

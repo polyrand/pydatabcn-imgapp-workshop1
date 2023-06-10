@@ -1,9 +1,9 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-<form method="get" action="/test">
+<form method="POST" action="/test" enctype="multipart/form-data">
     <label for="imagen_entrada">Imagen</label>
-    <input id="foobar" name="imagen_entrada" type="file" required>
+    <input id="foobar" name="imagen_entrada" type="file" accept="image/*" required>
     <button type="submit">Enviar</button>
 </form>
 {% endblock content%}
