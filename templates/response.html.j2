@@ -4,7 +4,9 @@
 <p>La predicción es: {{ prediccion }}</p>
 <form method="get" action="/feedback">
     <input type="text" name="texto_feebdack">
-    <input type="text" value="{{ pred_id }}" name="ident" hidden>
+    {# put the response id as a hidden input so that we can reconciliate the
+    feedback with the prediction #}
+    <input type="text" value="{{ pred_id }}" name="identificador_interno" hidden>
     <input type="submit" value="Enviar">
 </form>
 {% endblock content%}

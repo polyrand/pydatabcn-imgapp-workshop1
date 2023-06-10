@@ -1,6 +1,7 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
+{# NOTE: "multipart/form-data" is needed when uploading files. #}
 <form method="POST" action="/test" enctype="multipart/form-data">
     <label for="imagen_entrada">Imagen</label>
     <input id="foobar" name="imagen_entrada" type="file" accept="image/*" required>
